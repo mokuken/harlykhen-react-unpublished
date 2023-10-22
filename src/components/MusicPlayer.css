@@ -1,0 +1,73 @@
+.music-container {
+    background-color: var(--first-color);
+    border: var(--border-color);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .music-container.active {
+    font-weight: bold;
+    background-color: var(--second-color);
+  }
+  
+  .art {
+    height: 50px;
+    width: 150px;
+    position: relative;
+    border: var(--border-color);
+  }
+  
+  .image {
+    height: 100%;
+    width: 100%;
+  }
+  .music-detail {
+    width: 320px;
+    margin-left: 15px;
+  }
+  
+  #music-name {
+    display: none;
+  }
+  
+  .artist {
+    color: grey;
+  }
+  .overlay_box {
+    position: absolute;
+    inset: 0 0 0 0;
+    border-radius: 8px;
+    background-color: #00000055;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bar {
+    width: 5px;
+    height: 10px;
+    background-color: white;
+    margin: 2.5px;
+    border-radius: 6px;
+  }
+  
+  .bar.active {
+    animation: bar 1400ms infinite;
+  }
+  
+  .bar:nth-child(even) {
+    animation-delay: 700ms;
+  }
+  @keyframes bar {
+    0% {
+      height: 10px;
+    }
+    50% {
+      height: 20px;
+    }
+    100% {
+      height: 10px;
+    }
+  }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
+import MusicPlayer from '../components/MusicPlayer'
 
 function Sidebar() {
     return (
@@ -8,6 +9,7 @@ function Sidebar() {
             <CustomLink to="/About">About</CustomLink>
             <CustomLink to="/Project">Project</CustomLink>
             <CustomLink to="/Contact">Contact</CustomLink>
+            <MusicPlayer />
         </div>
     )
 }
