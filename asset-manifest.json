@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/harlykhen-react/static/css/main.3bc3534b.css",
-    "main.js": "/harlykhen-react/static/js/main.4d5a8fc4.js",
+    "main.css": "/harlykhen-react/static/css/main.6b1ce10f.css",
+    "main.js": "/harlykhen-react/static/js/main.f1c15f2e.js",
     "static/js/787.1d39eb4a.chunk.js": "/harlykhen-react/static/js/787.1d39eb4a.chunk.js",
+    "static/media/bgm.mp3": "/harlykhen-react/static/media/bgm.50c93fbbe820e0a8dabe.mp3",
     "static/media/bgv.mp4": "/harlykhen-react/static/media/bgv.b29c39a571181e916ab8.mp4",
     "static/media/project-2.webp": "/harlykhen-react/static/media/project-2.13a0cee21a533f08f030.webp",
+    "static/media/bgm-thumbnail.png": "/harlykhen-react/static/media/bgm-thumbnail.513e443ae5749bd5c2e8.png",
     "static/media/projects.webp": "/harlykhen-react/static/media/projects.7f6752b86e1c4011a2af.webp",
     "static/media/profile.webp": "/harlykhen-react/static/media/profile.6cdd668b8017e88f1fde.webp",
     "static/media/futura-medium.otf": "/harlykhen-react/static/media/futura-medium.b4abcb4bbe7b5984f519.otf",
     "index.html": "/harlykhen-react/index.html",
-    "main.3bc3534b.css.map": "/harlykhen-react/static/css/main.3bc3534b.css.map",
-    "main.4d5a8fc4.js.map": "/harlykhen-react/static/js/main.4d5a8fc4.js.map",
+    "main.6b1ce10f.css.map": "/harlykhen-react/static/css/main.6b1ce10f.css.map",
+    "main.f1c15f2e.js.map": "/harlykhen-react/static/js/main.f1c15f2e.js.map",
     "787.1d39eb4a.chunk.js.map": "/harlykhen-react/static/js/787.1d39eb4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bc3534b.css",
-    "static/js/main.4d5a8fc4.js"
+    "static/css/main.6b1ce10f.css",
+    "static/js/main.f1c15f2e.js"
   ]
 }
