@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/harlykhen-react/static/css/main.6b1ce10f.css",
-    "main.js": "/harlykhen-react/static/js/main.f1c15f2e.js",
+    "main.js": "/harlykhen-react/static/js/main.d12d278e.js",
     "static/js/787.1d39eb4a.chunk.js": "/harlykhen-react/static/js/787.1d39eb4a.chunk.js",
     "static/media/bgm.mp3": "/harlykhen-react/static/media/bgm.50c93fbbe820e0a8dabe.mp3",
     "static/media/bgv.mp4": "/harlykhen-react/static/media/bgv.b29c39a571181e916ab8.mp4",
@@ -12,11 +12,11 @@
     "static/media/futura-medium.otf": "/harlykhen-react/static/media/futura-medium.b4abcb4bbe7b5984f519.otf",
     "index.html": "/harlykhen-react/index.html",
     "main.6b1ce10f.css.map": "/harlykhen-react/static/css/main.6b1ce10f.css.map",
-    "main.f1c15f2e.js.map": "/harlykhen-react/static/js/main.f1c15f2e.js.map",
+    "main.d12d278e.js.map": "/harlykhen-react/static/js/main.d12d278e.js.map",
     "787.1d39eb4a.chunk.js.map": "/harlykhen-react/static/js/787.1d39eb4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b1ce10f.css",
-    "static/js/main.f1c15f2e.js"
+    "static/js/main.d12d278e.js"
   ]
 }
