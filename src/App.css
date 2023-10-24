@@ -102,6 +102,10 @@ body {
   margin-top: -5px;
 }
 
+.description {
+  padding: 10px;
+}
+
 .projCont {
   width: 100%;
   display: flex;

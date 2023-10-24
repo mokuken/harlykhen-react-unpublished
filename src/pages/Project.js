@@ -5,7 +5,7 @@ import ProjectImageSourceTwo from '../assets/image/project-2.webp'
 const Project = () => {
     return (
         <div>
-            <h3>some of my recent works</h3>
+            <h3>some of my recent work</h3>
             <h1>PROJECTS</h1>
             <br />
             <div className="projCont">
