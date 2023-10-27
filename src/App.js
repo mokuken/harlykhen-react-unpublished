@@ -1,7 +1,6 @@
 import './styles/App.css';
 import './styles/Icons.css';
 import { Route, Routes } from 'react-router-dom'
-import { useEffect } from 'react';
 import BackgroundVideo from './components/Background'
 import Sidebar from './components/Sidebar'
 import Home from './pages/Home'
@@ -10,10 +9,6 @@ import Project from './pages/Project'
 import Contact from './pages/Contact'
 
 function App() {
-  useEffect(() => {
-    document.title = "Harly Khen's Website"; // Set the new title here
-  }, []);
-
   return (
     <div className='App'>
       <BackgroundVideo />
