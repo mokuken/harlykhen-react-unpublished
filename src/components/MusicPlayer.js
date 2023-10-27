@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../components/MusicPlayer.css'; // Make sure to import your CSS file
+import '../styles/MusicPlayer.css'; // Make sure to import your CSS file
 import audioSource from '../assets/audio/bgm.mp3'
 import thumbSource from '../assets/audio/bgm-thumbnail.png'
 

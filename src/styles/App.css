@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: MyFont;
-  src: url(./assets/fonts/futura-medium/futura-medium.otf);
+  src: url(../assets/fonts/futura-medium/futura-medium.otf);
 }
 
 * {

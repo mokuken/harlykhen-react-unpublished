@@ -1,6 +1,5 @@
 import React from "react";
 import ProfileSource from '../assets/image/profile.webp'
-import '../styles/Icons.css'; // Make sure to import your CSS file
 import '../styles/Home.css'; // Make sure to import your CSS file
 
 const Home = () => {

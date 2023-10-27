@@ -5,10 +5,10 @@ import MusicPlayer from '../components/MusicPlayer'
 function Sidebar() {
     return (
         <div className="sidebar">
-            <CustomLink to="/">Home</CustomLink>
-            <CustomLink to="/About">About</CustomLink>
-            <CustomLink to="/Project">Project</CustomLink>
-            <CustomLink to="/Contact">Contact</CustomLink>
+            <CustomLink to="/"><i class="fas fa-home"></i> Home</CustomLink>
+            <CustomLink to="/About"><i class="fas fa-info-circle"></i> About</CustomLink>
+            <CustomLink to="/Project"><i class="fas fa-folder-open"></i> Project</CustomLink>
+            <CustomLink to="/Contact"><i class="fas fa-envelope"></i> Contact</CustomLink>
             <MusicPlayer />
         </div>
     )
