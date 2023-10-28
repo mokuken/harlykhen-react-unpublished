@@ -7,7 +7,7 @@ const About = () => {
             <h1>ABOUT ME</h1>
             <br />
             <div className="content-padding">
-                <p>Hello visitor, welcome to my website, my name is Harly Khen also known as Moku Ken in the world of internet, im 20 years old taking computer science in college and focusing on self-improvement.</p>
+                <p><strong>Hello friend, welcome to my place!</strong> You may already know my name but i also known as Moku Ken, my 2nd perosnality that i created, im 20 years old taking 4 years of computer science in college and i'm currently focusing on my self-improvement.</p>
                 <br />
                 <p>i see you wanna know more about me, i don't really talk alot about my selft because im a bit shy person, thats where i put Moku Ken to handle it, so i will start about what is my favorate things...</p>
                 <br />
