@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/harlykhen/static/css/main.e5a0d15e.css",
-    "main.js": "/harlykhen/static/js/main.c6f53866.js",
+    "main.css": "/harlykhen/static/css/main.993b6a9d.css",
+    "main.js": "/harlykhen/static/js/main.65485c8e.js",
     "static/js/787.522d9804.chunk.js": "/harlykhen/static/js/787.522d9804.chunk.js",
     "static/media/bgm.mp3": "/harlykhen/static/media/bgm.50c93fbbe820e0a8dabe.mp3",
     "static/media/bgv.mp4": "/harlykhen/static/media/bgv.b29c39a571181e916ab8.mp4",
@@ -10,13 +10,14 @@
     "static/media/projects.webp": "/harlykhen/static/media/projects.7f6752b86e1c4011a2af.webp",
     "static/media/profile.webp": "/harlykhen/static/media/profile.6cdd668b8017e88f1fde.webp",
     "static/media/futura-medium.otf": "/harlykhen/static/media/futura-medium.b4abcb4bbe7b5984f519.otf",
+    "static/media/spotifyLogo.png": "/harlykhen/static/media/spotifyLogo.023dbed265b9676954fb.png",
     "index.html": "/harlykhen/index.html",
-    "main.e5a0d15e.css.map": "/harlykhen/static/css/main.e5a0d15e.css.map",
-    "main.c6f53866.js.map": "/harlykhen/static/js/main.c6f53866.js.map",
+    "main.993b6a9d.css.map": "/harlykhen/static/css/main.993b6a9d.css.map",
+    "main.65485c8e.js.map": "/harlykhen/static/js/main.65485c8e.js.map",
     "787.522d9804.chunk.js.map": "/harlykhen/static/js/787.522d9804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5a0d15e.css",
-    "static/js/main.c6f53866.js"
+    "static/css/main.993b6a9d.css",
+    "static/js/main.65485c8e.js"
   ]
 }
