@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/harlykhen/static/css/main.858c3f5d.css",
-    "main.js": "/harlykhen/static/js/main.6f031555.js",
+    "main.js": "/harlykhen/static/js/main.de5404fa.js",
     "static/js/787.522d9804.chunk.js": "/harlykhen/static/js/787.522d9804.chunk.js",
     "static/media/bgm.mp3": "/harlykhen/static/media/bgm.50c93fbbe820e0a8dabe.mp3",
     "static/media/bgv.mp4": "/harlykhen/static/media/bgv.b29c39a571181e916ab8.mp4",
@@ -13,11 +13,11 @@
     "static/media/bgm-thumbnail.webp": "/harlykhen/static/media/bgm-thumbnail.951324fb6db4b7c5944a.webp",
     "index.html": "/harlykhen/index.html",
     "main.858c3f5d.css.map": "/harlykhen/static/css/main.858c3f5d.css.map",
-    "main.6f031555.js.map": "/harlykhen/static/js/main.6f031555.js.map",
+    "main.de5404fa.js.map": "/harlykhen/static/js/main.de5404fa.js.map",
     "787.522d9804.chunk.js.map": "/harlykhen/static/js/787.522d9804.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.858c3f5d.css",
-    "static/js/main.6f031555.js"
+    "static/js/main.de5404fa.js"
   ]
 }
