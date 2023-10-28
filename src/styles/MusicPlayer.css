@@ -1,6 +1,7 @@
 .music-container {
     background-color: var(--first-color);
     border: var(--border-color);
+    border-radius: var(--border-radius);
     display: flex;
     align-items: center;
     padding: 10px;
@@ -18,11 +19,13 @@
     width: 150px;
     position: relative;
     border: var(--border-color);
+    border-radius: var(--border-radius);
   }
   
   .image {
     height: 100%;
     width: 100%;
+    border-radius: var(--border-radius);
   }
   .music-detail {
     width: 320px;
@@ -39,7 +42,6 @@
   .overlay_box {
     position: absolute;
     inset: 0 0 0 0;
-    border-radius: 8px;
     background-color: #00000055;
     display: flex;
     align-items: center;

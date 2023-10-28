@@ -2,6 +2,7 @@
   --first-color: #1e2122;
   --second-color: #141616;
   --border-color: 3px solid black;
+  --border-radius: 6px;
 }
 
 @font-face {
@@ -48,6 +49,7 @@ body {
 
 .sidebar a {
   border: var(--border-color);
+  border-radius: var(--border-radius);
   padding: 15px;
   margin: 10px;
   cursor: pointer;
@@ -88,6 +90,7 @@ body {
   height: auto;
   margin-right: 20px;
   border: var(--border-color);
+  border-radius: var(--border-radius);
   background-color: var(--first-color);
 }
 
@@ -121,11 +124,13 @@ body {
   background-color: var(--first-color);
   align-items: center;
   border: var(--border-color);
+  border-radius: var(--border-radius);
 }
 
 .card img {
   width: 100%;
   margin-bottom: 10px;
+  border-radius: var(--border-radius);
 }
 
 img.inactive {

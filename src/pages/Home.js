@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileSource from '../assets/image/profile.webp'
+import Tooltip from '../components/Tooltip.js';
 import '../styles/Home.css'; // Make sure to import your CSS file
 
 const Home = () => {
@@ -15,25 +16,39 @@ const Home = () => {
                 </h3>
                 <div class="skillBox">
                     <div class="skillColumn">
-                        <i class="fab fa-html5"></i>
+                        <Tooltip text="HTML">
+                            <i class="fab fa-html5"></i>
+                        </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <i class="fab fa-css3"></i>
+                        <Tooltip text="CSS">
+                            <i class="fab fa-css3"></i>
+                        </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <i class="fab fa-js"></i>
+                        <Tooltip text="JS">
+                            <i class="fab fa-js"></i>
+                        </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <i class="fas fa-database"></i>
+                        <Tooltip text="DB">
+                            <i class="fas fa-database"></i>
+                        </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <i class="fa-brands fa-git-alt"></i>
+                        <Tooltip text="GIT">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <i class="fab fa-linux"></i>
+                        <Tooltip text="LINUX">
+                            <i class="fab fa-linux"></i>
+                        </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <i class="fab fa-java"></i>
+                        <Tooltip text="JAVA">
+                            <i class="fab fa-java"></i>
+                        </Tooltip>
                     </div>
                 </div>
             </div>
