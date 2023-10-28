@@ -1,7 +1,7 @@
 {
-  "name": "harlykhen-react",
+  "name": "harlykhen",
   "version": "0.1.0",
-  "homepage": "https://mokuken.github.io/harlykhen-react",
+  "homepage": "https://mokuken.github.io/harlykhen",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
