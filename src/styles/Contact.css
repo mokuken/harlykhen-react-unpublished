@@ -1,0 +1,19 @@
+.contact-container {
+    width: 100%;
+}
+
+.contact-coloumn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contact-coloumn a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-box {
+    flex: 1;
+    text-align: center;
+}
