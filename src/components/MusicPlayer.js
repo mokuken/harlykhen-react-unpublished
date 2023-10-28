@@ -37,7 +37,7 @@ const YourComponent = () => {
   };
 
   return (
-    <div id="player" className={`music-container ${isPlaying ? 'active' : ''}`} onClick={handleTogglePlay}>
+    <div id="player" className={`music-container spotifyBackground ${isPlaying ? 'active' : ''}`} onClick={handleTogglePlay}>
       <div className="art">
         <img className="image" src={thumbSource} alt="thumbnail" />
         <div className="overlay_box">
