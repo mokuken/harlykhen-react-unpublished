@@ -3,6 +3,7 @@
   --second-color: #141616;
   --border-color: 3px solid black;
   --border-radius: 6px;
+  --card-margin: 5px;
 }
 
 @font-face {
@@ -118,13 +119,29 @@ body {
   margin-bottom: 50px;
 }
 
+.projCont:not(:first-child) {
+  margin-top: 10px;
+}
+
 .card {
   padding: 20px;
-  margin: 10px;
   background-color: var(--first-color);
   align-items: center;
   border: var(--border-color);
   border-radius: var(--border-radius);
+}
+
+.card-left {
+  margin-right: var(--card-margin);
+}
+
+.card-middle {
+  margin-left: var(--card-margin);
+  margin-right: var(--card-margin);
+}
+
+.card-right {
+  margin-left: var(--card-margin);
 }
 
 .card img {

@@ -10,6 +10,7 @@ function Sidebar() {
             <CustomLink to="/Project"><i class="fas fa-folder-open"></i> Project</CustomLink>
             <CustomLink to="/Contact"><i class="fas fa-envelope"></i> Contact</CustomLink>
             <MusicPlayer />
+            <CustomLink to="/Gallery"><i class="fas fa-home"></i> Gallery</CustomLink>
         </div>
     )
 }
