@@ -1,16 +1,18 @@
 import React from "react";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 import MusicPlayer from '../components/MusicPlayer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faCircleInfo, faFolderOpen, faEnvelope, faImages } from '@fortawesome/free-solid-svg-icons';
 
 function Sidebar() {
     return (
         <div className="sidebar">
-            <CustomLink to="/"><i class="fas fa-home"></i> Home</CustomLink>
-            <CustomLink to="/About"><i class="fas fa-info-circle"></i> About</CustomLink>
-            <CustomLink to="/Project"><i class="fas fa-folder-open"></i> Project</CustomLink>
-            <CustomLink to="/Contact"><i class="fas fa-envelope"></i> Contact</CustomLink>
+            <CustomLink to="/"><FontAwesomeIcon icon={faHome} /> Home</CustomLink>
+            <CustomLink to="/About"><FontAwesomeIcon icon={faCircleInfo} />  About</CustomLink>
+            <CustomLink to="/Project"><FontAwesomeIcon icon={faFolderOpen} />  Project</CustomLink>
+            <CustomLink to="/Contact"><FontAwesomeIcon icon={faEnvelope} />  Contact</CustomLink>
             <MusicPlayer />
-            <CustomLink to="/Gallery"><i class="fas fa-home"></i> Gallery</CustomLink>
+            <CustomLink to="/Gallery"><FontAwesomeIcon icon={faImages} />  Gallery</CustomLink>
         </div>
     )
 }

@@ -21,7 +21,12 @@
     font-size: 25px;
     color: white;
   }
+
+  .skillColumn .font-awesome-icon {
+    font-size: 25px;
+    color: white;
+  }
   
-  .skillColumn:hover i {
+  .skillColumn:hover .font-awesome-icon {
     transform: translateY(20%);
   }

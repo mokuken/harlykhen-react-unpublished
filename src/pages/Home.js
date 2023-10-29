@@ -1,7 +1,9 @@
 import React from "react";
 import ProfileSource from '../assets/image/profile.webp'
 import Tooltip from '../components/Tooltip.js';
-import '../styles/Home.css'; // Make sure to import your CSS file
+import '../styles/Home.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faReact, faJs, faNodeJs, faGitAlt, faLinux, faJava, faPython } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
     return (
@@ -16,38 +18,38 @@ const Home = () => {
                 </h3>
                 <div class="skillBox">
                     <div class="skillColumn">
-                        <Tooltip text="HTML">
-                            <i class="fab fa-html5"></i>
-                        </Tooltip>
-                    </div>
-                    <div class="skillColumn">
-                        <Tooltip text="CSS">
-                            <i class="fab fa-css3"></i>
-                        </Tooltip>
-                    </div>
-                    <div class="skillColumn">
                         <Tooltip text="JS">
-                            <i class="fab fa-js"></i>
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faJs} />
                         </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <Tooltip text="DB">
-                            <i class="fas fa-database"></i>
+                        <Tooltip text="Node">
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faNodeJs} />
                         </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <Tooltip text="GIT">
-                            <i class="fa-brands fa-git-alt"></i>
+                        <Tooltip text="React">
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faReact} />
                         </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <Tooltip text="LINUX">
-                            <i class="fab fa-linux"></i>
+                        <Tooltip text="Python">
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faPython} />
                         </Tooltip>
                     </div>
                     <div class="skillColumn">
-                        <Tooltip text="JAVA">
-                            <i class="fab fa-java"></i>
+                        <Tooltip text="Git">
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faGitAlt} />
+                        </Tooltip>
+                    </div>
+                    <div class="skillColumn">
+                        <Tooltip text="Linux">
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faLinux} />
+                        </Tooltip>
+                    </div>
+                    <div class="skillColumn">
+                        <Tooltip text="Java">
+                            <FontAwesomeIcon className="font-awesome-icon" icon={faJava} />
                         </Tooltip>
                     </div>
                 </div>

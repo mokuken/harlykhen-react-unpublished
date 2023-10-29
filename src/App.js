@@ -1,5 +1,4 @@
 import './styles/App.css';
-import './styles/Icons.css';
 import './styles/Gallery.css';
 import { Route, Routes } from 'react-router-dom'
 import BackgroundVideo from './components/Background'
