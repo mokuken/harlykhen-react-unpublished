@@ -70,7 +70,9 @@
     align-items: center;
     justify-content: center;
   }
+
   .bar {
+    display: none;
     width: 5px;
     height: 10px;
     background-color: white;
@@ -79,9 +81,19 @@
   }
   
   .bar.active {
+    display: block;
     animation: bar 1400ms infinite;
   }
-  
+
+  .spotifyIcon {
+    font-size: 30px;
+    opacity: 0.5;
+  }
+
+  .spotifyIcon.active {
+    display: none;
+  }
+
   .bar:nth-child(even) {
     animation-delay: 700ms;
   }

@@ -7,12 +7,12 @@ import { faHome, faCircleInfo, faFolderOpen, faEnvelope, faImages } from '@forta
 function Sidebar() {
     return (
         <div className="sidebar">
-            <CustomLink to="/"><FontAwesomeIcon icon={faHome} /> Home</CustomLink>
-            <CustomLink to="/About"><FontAwesomeIcon icon={faCircleInfo} />  About</CustomLink>
-            <CustomLink to="/Project"><FontAwesomeIcon icon={faFolderOpen} />  Project</CustomLink>
-            <CustomLink to="/Contact"><FontAwesomeIcon icon={faEnvelope} />  Contact</CustomLink>
+            <CustomLink to="/"><FontAwesomeIcon className="sideSep" icon={faHome} /> Home</CustomLink>
+            <CustomLink to="/About"><FontAwesomeIcon className="sideSep" icon={faCircleInfo} />  About</CustomLink>
+            <CustomLink to="/Project"><FontAwesomeIcon className="sideSep" icon={faFolderOpen} />  Project</CustomLink>
+            <CustomLink to="/Contact"><FontAwesomeIcon className="sideSep" icon={faEnvelope} />  Contact</CustomLink>
             <MusicPlayer />
-            <CustomLink to="/Gallery"><FontAwesomeIcon icon={faImages} />  Gallery</CustomLink>
+            <CustomLink to="/Gallery"><FontAwesomeIcon className="sideSep" icon={faImages} />  Gallery</CustomLink>
         </div>
     )
 }

@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 import '../styles/MusicPlayer.css'; // Make sure to import your CSS file
 import audioSource from '../assets/audio/bgm.mp3'
 import thumbSource from '../assets/image/bgm-thumbnail.webp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 
 const YourComponent = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handleTogglePlay = () => {
     const audio = document.getElementById("myAudio");
+    const spotifyIcon = document.getElementById("spotifyIcon");
     const barAnim1 = document.getElementById("bar1");
     const barAnim2 = document.getElementById("bar2");
     const barAnim3 = document.getElementById("bar3");
@@ -17,6 +20,7 @@ const YourComponent = () => {
 
     if (audio.paused) {
       audio.play();
+      spotifyIcon.classList.add("active");
       barAnim1.classList.add("active");
       barAnim2.classList.add("active");
       barAnim3.classList.add("active");
@@ -25,6 +29,7 @@ const YourComponent = () => {
       music.style.display = "block";
     } else {
       audio.pause();
+      spotifyIcon.classList.remove("active");
       barAnim1.classList.remove("active");
       barAnim2.classList.remove("active");
       barAnim3.classList.remove("active");
@@ -41,6 +46,7 @@ const YourComponent = () => {
       <div className="art">
         <img className="image" src={thumbSource} alt="thumbnail" />
         <div className="overlay_box">
+          <FontAwesomeIcon id='spotifyIcon' className='spotifyIcon' icon={faSpotify} />
           <div id="bar1" className="bar"></div>
           <div id="bar2" className="bar"></div>
           <div id="bar3" className="bar"></div>

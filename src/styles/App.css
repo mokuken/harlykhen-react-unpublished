@@ -48,6 +48,10 @@ body {
   padding: 0 10px;
 }
 
+.sideSep {
+  padding-right: 10px;
+}
+
 .sidebar a {
   border: var(--border-color);
   border-radius: var(--border-radius);
