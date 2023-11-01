@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/harlykhen/static/css/main.93133428.css",
-    "main.js": "/harlykhen/static/js/main.35834b44.js",
+    "main.js": "/harlykhen/static/js/main.c046b28b.js",
     "static/js/787.522d9804.chunk.js": "/harlykhen/static/js/787.522d9804.chunk.js",
     "static/media/bgm.mp3": "/harlykhen/static/media/bgm.50c93fbbe820e0a8dabe.mp3",
-    "static/media/pic5.png": "/harlykhen/static/media/pic5.3ae723ff8cd0a8d0bfbb.png",
     "static/media/bgv.mp4": "/harlykhen/static/media/bgv.b29c39a571181e916ab8.mp4",
     "static/media/project-2.webp": "/harlykhen/static/media/project-2.13a0cee21a533f08f030.webp",
-    "static/media/pic6.png": "/harlykhen/static/media/pic6.f2d2e070ac91c9e1d2fc.png",
-    "static/media/pic7.png": "/harlykhen/static/media/pic7.52a4e66a2dd405213f76.png",
-    "static/media/pic2.png": "/harlykhen/static/media/pic2.aa65473211dbb0e6bdde.png",
+    "static/media/pic5.webp": "/harlykhen/static/media/pic5.7bb91c7ef3ada3aced95.webp",
+    "static/media/pic6.webp": "/harlykhen/static/media/pic6.0146c59db149779b17e5.webp",
+    "static/media/pic2.webp": "/harlykhen/static/media/pic2.5d847ec9c0526639b73d.webp",
     "static/media/spotifyLogo.webp": "/harlykhen/static/media/spotifyLogo.15f6b0508498ff9f68cb.webp",
     "static/media/projects.webp": "/harlykhen/static/media/projects.7f6752b86e1c4011a2af.webp",
     "static/media/profile.webp": "/harlykhen/static/media/profile.6cdd668b8017e88f1fde.webp",
     "static/media/futura-medium.otf": "/harlykhen/static/media/futura-medium.b4abcb4bbe7b5984f519.otf",
-    "static/media/pic1.png": "/harlykhen/static/media/pic1.f9b6bd8a415196b25ba6.png",
+    "static/media/pic1.webp": "/harlykhen/static/media/pic1.790a790e370547668f25.webp",
+    "static/media/pic7.webp": "/harlykhen/static/media/pic7.6f07d1c419eec8e1b5cb.webp",
+    "static/media/pic3.webp": "/harlykhen/static/media/pic3.f3750d6b88f891aa78ae.webp",
     "static/media/bgm-thumbnail.webp": "/harlykhen/static/media/bgm-thumbnail.951324fb6db4b7c5944a.webp",
-    "static/media/pic3.png": "/harlykhen/static/media/pic3.a5ad8ef5544254704e9e.png",
+    "static/media/pic4.webp": "/harlykhen/static/media/pic4.9af830b480b1c1933609.webp",
     "index.html": "/harlykhen/index.html",
     "main.93133428.css.map": "/harlykhen/static/css/main.93133428.css.map",
-    "main.35834b44.js.map": "/harlykhen/static/js/main.35834b44.js.map",
+    "main.c046b28b.js.map": "/harlykhen/static/js/main.c046b28b.js.map",
     "787.522d9804.chunk.js.map": "/harlykhen/static/js/787.522d9804.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93133428.css",
-    "static/js/main.35834b44.js"
+    "static/js/main.c046b28b.js"
   ]
 }
