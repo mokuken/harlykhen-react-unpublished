@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileSource from '../assets/image/profile.webp'
 import Tooltip from '../components/Tooltip.js';
+import LoadProfile from "../components/LoadProfileImage"
 import '../styles/Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faNodeJs, faGitAlt, faLinux, faJava, faPython } from '@fortawesome/free-brands-svg-icons';
@@ -8,7 +9,7 @@ import { faReact, faJs, faNodeJs, faGitAlt, faLinux, faJava, faPython } from '@f
 const Home = () => {
     return (
         <div className="home-container">
-            <img className="profile" src={ProfileSource} alt={Image} />
+            <LoadProfile src={ProfileSource} alt={Image} />
             <div className="text">
                 <h3>hello there i am</h3>
                 <h1>HARLY KHEN QUIMELAT</h1>
