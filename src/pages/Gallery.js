@@ -10,7 +10,7 @@ import pic7 from '../assets/image/gallery/pic7.webp'
 
 const Contact = () => {
     return (
-        <div>
+        <div className="gallery-container">
             <h3>random photos on my</h3>
             <h1>GALLERY</h1>
             <br />
