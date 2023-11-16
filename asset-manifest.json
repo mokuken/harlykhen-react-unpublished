@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/harlykhen/static/css/main.e07cf43c.css",
-    "main.js": "/harlykhen/static/js/main.7422a0ca.js",
+    "main.css": "/harlykhen/static/css/main.93133428.css",
+    "main.js": "/harlykhen/static/js/main.c046b28b.js",
     "static/js/787.522d9804.chunk.js": "/harlykhen/static/js/787.522d9804.chunk.js",
     "static/media/bgm.mp3": "/harlykhen/static/media/bgm.50c93fbbe820e0a8dabe.mp3",
     "static/media/bgv.mp4": "/harlykhen/static/media/bgv.b29c39a571181e916ab8.mp4",
@@ -19,12 +19,12 @@
     "static/media/bgm-thumbnail.webp": "/harlykhen/static/media/bgm-thumbnail.951324fb6db4b7c5944a.webp",
     "static/media/pic4.webp": "/harlykhen/static/media/pic4.9af830b480b1c1933609.webp",
     "index.html": "/harlykhen/index.html",
-    "main.e07cf43c.css.map": "/harlykhen/static/css/main.e07cf43c.css.map",
-    "main.7422a0ca.js.map": "/harlykhen/static/js/main.7422a0ca.js.map",
+    "main.93133428.css.map": "/harlykhen/static/css/main.93133428.css.map",
+    "main.c046b28b.js.map": "/harlykhen/static/js/main.c046b28b.js.map",
     "787.522d9804.chunk.js.map": "/harlykhen/static/js/787.522d9804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e07cf43c.css",
-    "static/js/main.7422a0ca.js"
+    "static/css/main.93133428.css",
+    "static/js/main.c046b28b.js"
   ]
 }
