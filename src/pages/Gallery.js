@@ -7,6 +7,7 @@ import pic4 from '../assets/image/gallery/pic4.webp'
 import pic5 from '../assets/image/gallery/pic5.webp'
 import pic6 from '../assets/image/gallery/pic6.webp'
 import pic7 from '../assets/image/gallery/pic7.webp'
+import LoadImage from '../components/LoadImage.js';
 
 const Contact = () => {
     return (
@@ -17,17 +18,17 @@ const Contact = () => {
             <div className="content-padding">
                 <div className="row"> 
                     <div class="column column-left">
-                        <img src={pic1} alt={Image}/>
-                        <img src={pic2} alt={Image}/>
+                        <LoadImage src={pic1} alt={Image}/>
+                        <LoadImage src={pic2} alt={Image}/>
                     </div>
                     <div class="column column-middle">
-                        <img src={pic3} alt={Image}/>
-                        <img src={pic4} alt={Image}/>
-                        <img src={pic5} alt={Image}/>
+                        <LoadImage src={pic3} alt={Image}/>
+                        <LoadImage src={pic4} alt={Image}/>
+                        <LoadImage src={pic5} alt={Image}/>
                     </div>
                     <div class="column column-right">
-                        <img src={pic6} alt={Image}/>
-                        <img src={pic7} alt={Image}/>
+                        <LoadImage src={pic6} alt={Image}/>
+                        <LoadImage src={pic7} alt={Image}/>
                     </div>
                 </div>
             </div>

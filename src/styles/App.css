@@ -94,7 +94,6 @@ body {
   width: 200px;
   height: auto;
   margin-right: 20px;
-  border: var(--border-color);
   border-radius: var(--border-radius);
   background-color: var(--first-color);
 }

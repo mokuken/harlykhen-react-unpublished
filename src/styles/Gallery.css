@@ -32,7 +32,6 @@
   .column img {
     vertical-align: middle;
     width: 100%;
-    border: var(--border-color);
     border-radius: var(--border-radius);
   }
 
