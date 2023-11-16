@@ -3,7 +3,6 @@
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    margin-bottom: 40px;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -29,6 +28,7 @@
   .column img {
     vertical-align: middle;
     width: 100%;
+    border: var(--border-color);
     border-radius: var(--border-radius);
   }
 
@@ -37,7 +37,7 @@
   }
 
   .column img:nth-last-of-type(1) {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -56,9 +56,4 @@
       flex: 100%;
       max-width: 100%;
     }
-  }
-
-  .loading-indicator {
-    text-align: center;
-    align-items: center;
   }

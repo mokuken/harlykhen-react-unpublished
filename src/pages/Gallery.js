@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/Contact.css';
-import LoadGallery from "../components/LoadGalleryImage"
 import pic1 from '../assets/image/gallery/pic1.webp'
 import pic2 from '../assets/image/gallery/pic2.webp'
 import pic3 from '../assets/image/gallery/pic3.webp'
@@ -18,17 +17,17 @@ const Contact = () => {
             <div className="content-padding">
                 <div className="row"> 
                     <div class="column column-left">
-                        <LoadGallery src={pic1} alt={Image} />
-                        <LoadGallery src={pic2} alt={Image} />
+                        <img src={pic1} alt={Image}/>
+                        <img src={pic2} alt={Image}/>
                     </div>
                     <div class="column column-middle">
-                        <LoadGallery src={pic3} alt={Image} />
-                        <LoadGallery src={pic4} alt={Image} />
-                        <LoadGallery src={pic5} alt={Image} />
+                        <img src={pic3} alt={Image}/>
+                        <img src={pic4} alt={Image}/>
+                        <img src={pic5} alt={Image}/>
                     </div>
                     <div class="column column-right">
-                        <LoadGallery src={pic6} alt={Image} />
-                        <LoadGallery src={pic7} alt={Image} />
+                        <img src={pic6} alt={Image}/>
+                        <img src={pic7} alt={Image}/>
                     </div>
                 </div>
             </div>
