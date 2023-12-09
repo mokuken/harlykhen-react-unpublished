@@ -1,0 +1,16 @@
+.about-main-container {
+    display: flex;
+  }
+  
+  .about-main-container img {
+    object-fit: cover;
+  }
+
+  .about-main-container p hr {
+    margin: 10px 0;
+    opacity: 0;
+  }
+  
+  .about-main-container p {
+    padding: 20px;
+  }
