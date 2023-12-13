@@ -1,0 +1,24 @@
+.project-container {
+    width: 100%;
+}
+
+.project-folders {
+    display: flex;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-right: 5px;
+}
+
+.project-row:not(:first-child) {
+    margin-left: 5px;
+    margin-right: 0;
+  }
+
+.project-row .card {
+    margin-bottom: 10px;
+}

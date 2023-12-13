@@ -17,3 +17,16 @@
     flex: 1;
     text-align: center;
 }
+
+.card-left {
+    margin-right: var(--card-margin);
+  }
+  
+  .card-middle {
+    margin-left: var(--card-margin);
+    margin-right: var(--card-margin);
+  }
+  
+  .card-right {
+    margin-left: var(--card-margin);
+  }
