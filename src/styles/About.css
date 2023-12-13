@@ -4,6 +4,7 @@
   
   .about-main-container img {
     object-fit: cover;
+    border-radius: var(--border-radius);
   }
   
   .about-main-container article {
