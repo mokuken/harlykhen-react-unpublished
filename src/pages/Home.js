@@ -9,7 +9,7 @@ import { faReact, faJs, faNodeJs, faGitAlt, faLinux, faJava, faPython } from '@f
 const Home = () => {
     return (
         <div className="home-container">
-            <LoadImage className="profile" src={ProfileSource} alt={Image} />
+            <LoadImage className="profile" src={ProfileSource} />
             <div className="text">
                 <h3>hello there i am</h3>
                 <h1>HARLY KHEN QUIMELAT</h1>
@@ -17,38 +17,38 @@ const Home = () => {
                     a computer science student and aspiring
                     software engineer!
                 </h3>
-                <div class="skillBox">
-                    <div class="skillColumn">
+                <div className="skillBox">
+                    <div className="skillColumn">
                         <Tooltip text="JS">
                             <FontAwesomeIcon className="font-awesome-icon" icon={faJs} />
                         </Tooltip>
                     </div>
-                    <div class="skillColumn">
+                    <div className="skillColumn">
                         <Tooltip text="Node">
                             <FontAwesomeIcon className="font-awesome-icon" icon={faNodeJs} />
                         </Tooltip>
                     </div>
-                    <div class="skillColumn">
+                    <div className="skillColumn">
                         <Tooltip text="React">
                             <FontAwesomeIcon className="font-awesome-icon" icon={faReact} />
                         </Tooltip>
                     </div>
-                    <div class="skillColumn">
+                    <div className="skillColumn">
                         <Tooltip text="Python">
                             <FontAwesomeIcon className="font-awesome-icon" icon={faPython} />
                         </Tooltip>
                     </div>
-                    <div class="skillColumn">
+                    <div className="skillColumn">
                         <Tooltip text="Git">
                             <FontAwesomeIcon className="font-awesome-icon" icon={faGitAlt} />
                         </Tooltip>
                     </div>
-                    <div class="skillColumn">
+                    <div className="skillColumn">
                         <Tooltip text="Linux">
                             <FontAwesomeIcon className="font-awesome-icon" icon={faLinux} />
                         </Tooltip>
                     </div>
-                    <div class="skillColumn">
+                    <div className="skillColumn">
                         <Tooltip text="Java">
                             <FontAwesomeIcon className="font-awesome-icon" icon={faJava} />
                         </Tooltip>

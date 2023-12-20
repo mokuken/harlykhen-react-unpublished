@@ -17,18 +17,18 @@ const Contact = () => {
             <br />
             <div className="content-padding">
                 <div className="row"> 
-                    <div class="column column-left">
-                        <LoadImage src={pic1} alt={Image}/>
-                        <LoadImage src={pic2} alt={Image}/>
+                    <div className="column column-left">
+                        <LoadImage src={pic1} />
+                        <LoadImage src={pic2} />
                     </div>
-                    <div class="column column-middle">
-                        <LoadImage src={pic3} alt={Image}/>
-                        <LoadImage src={pic4} alt={Image}/>
-                        <LoadImage src={pic5} alt={Image}/>
+                    <div className="column column-middle">
+                        <LoadImage src={pic3} />
+                        <LoadImage src={pic4} />
+                        <LoadImage src={pic5} />
                     </div>
-                    <div class="column column-right">
-                        <LoadImage src={pic6} alt={Image}/>
-                        <LoadImage src={pic7} alt={Image}/>
+                    <div className="column column-right">
+                        <LoadImage src={pic6} />
+                        <LoadImage src={pic7} />
                     </div>
                 </div>
             </div>
