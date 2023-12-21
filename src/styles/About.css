@@ -4,9 +4,27 @@
   
   .about-main-container img {
     object-fit: cover;
+    width: 600px;
     border-radius: var(--border-radius);
+  }
+
+  .about-main-container:last-child {
+    margin-bottom: 50px;
   }
   
   .about-main-container article {
     padding: 20px;
+    margin: 0 10px;
+    margin-right: 0;
+    background-color: var(--first-color);
+    border: var(--border-color);
+    border-radius: var(--border-radius);  
+  }
+
+  .content-padding h3, .content-padding h1:nth-last-child(3) {
+    text-align: center;
+  }
+
+  .content-padding h3 {
+    margin-top: 25px;
   }

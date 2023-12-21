@@ -1,32 +1,31 @@
-.contact-container {
-    width: 100%;
-}
-
 .contact-coloumn {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     margin: 0 auto;
+    width: 100%;
 }
 
 .contact-coloumn a {
     color: white;
     text-decoration: none;
+    font-size: 3.5vh;
+    padding: 25px;
+}
+
+.contact-box:first-child {
+  margin-top: 0;
+}
+
+.contact-box:last-child {
+  margin-bottom: 0;
 }
 
 .contact-box {
     flex: 1;
-    text-align: center;
+    margin: 5px 10px;
+    margin-left: 0;
 }
 
-.card-left {
-    margin-right: var(--card-margin);
-  }
-  
-  .card-middle {
-    margin-left: var(--card-margin);
-    margin-right: var(--card-margin);
-  }
-  
-  .card-right {
-    margin-left: var(--card-margin);
-  }
+.leftIcon {
+  float: right;
+}
