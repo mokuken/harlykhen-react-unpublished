@@ -22,3 +22,28 @@
 .project-row .card {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 700px) {
+    .project-folders {
+        display: block;
+
+    }
+
+    .project-row {
+        margin-bottom: 0px;
+        margin-right: 0;
+    }
+
+    .project-row:not(:first-child) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .project-row .card {
+        margin-bottom: 10px;
+    }
+
+    .project-row:last-child .card:last-child {
+        margin-bottom: 50px;
+    }
+}

@@ -29,3 +29,13 @@
 .leftIcon {
   float: right;
 }
+
+@media screen and (max-width: 700px) {
+  .contact-box {
+    flex: 1;
+    margin: 5px 0;
+  }
+  .contact-coloumn {
+    margin: 0;
+}
+}

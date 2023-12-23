@@ -28,3 +28,17 @@
   .content-padding h3 {
     margin-top: 25px;
   }
+
+  @media screen and (max-width: 1200px) {
+    .about-main-container {
+      display: block;
+    }
+
+    .about-main-container img {
+      display: none;
+    }
+
+    .about-main-container article {
+      margin: 0;
+    }
+  }
