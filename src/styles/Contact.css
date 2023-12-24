@@ -30,7 +30,7 @@
   float: right;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
   .contact-box {
     flex: 1;
     margin: 5px 0;
