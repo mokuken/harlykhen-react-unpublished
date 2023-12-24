@@ -191,4 +191,16 @@ body {
   .home-container {
     height: 83vh;
   }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Ensure it appears above other content */
+  }
+
+  .container {
+    padding-top: 80px;
+  }
 }
