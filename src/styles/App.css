@@ -50,11 +50,6 @@ body {
   border-right: var(--border-color);
   background-color: var(--first-color);
   padding: 0 5px;
-  transition: width 0.2s ease;
-}
-
-.sidebar:hover {
-  width: 190px;
 }
 
 .sideSep {
@@ -72,12 +67,6 @@ body {
   text-decoration: none;
   color: inherit;
   overflow: hidden;
-}
-
-.linkName {
-  width: 100%;
-  text-align: center;
-  margin-top: -1px;
 }
 
 .sidebar a.active {
@@ -156,14 +145,6 @@ body {
   .sidebar a {
     width: 15px;
     margin: 10px 10px;
-  }
-
-  .linkName {
-    display: none;
-  }
-
-  .sidebar:hover {
-    width: unset;
   }
 
   .container {
