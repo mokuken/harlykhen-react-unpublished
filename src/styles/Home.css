@@ -54,4 +54,8 @@
     .hero-name {
       text-align: center;
     }
+
+    .hero-name h1 {
+      font-size: 45px;
+    }
   }

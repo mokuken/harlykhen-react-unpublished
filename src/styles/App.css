@@ -137,7 +137,8 @@ article {
   }
 
   nav {
-    height: 66px;
+    height: auto;
+    padding: 5px 0;
     flex-direction: row;
     border-right: none;
     border-bottom: 3px solid black;
