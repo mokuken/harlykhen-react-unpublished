@@ -1,37 +1,30 @@
-import React from "react";
-import Tooltip from '../components/Tooltip.js';
-import { Link, useMatch, useResolvedPath } from 'react-router-dom'
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faCircleInfo, faFolderOpen, faImages } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faCircleInfo, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
+import ThemeChanger from './ThemeChanger'
+import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
-function Sidebar() {
-    return (
-        <div className="sidebar">
-            <Tooltip text="Home">
-                <CustomLink to="/"><FontAwesomeIcon className="sideSep" icon={faHome} /></CustomLink>
-            </Tooltip>
-            <Tooltip text="About">
-                <CustomLink to="/About"><FontAwesomeIcon className="sideSep" icon={faCircleInfo} /></CustomLink>
-            </Tooltip>
-            <Tooltip text="Project">
-                <CustomLink to="/Project"><FontAwesomeIcon className="sideSep" icon={faFolderOpen} /></CustomLink>
-            </Tooltip>
-            <Tooltip text="Gallery">
-                <CustomLink to="/Gallery"><FontAwesomeIcon className="sideSep" icon={faImages} /></CustomLink>
-            </Tooltip>
-        </div>
-    )
-}
+const Sidebar = () => {
+  return (
+      <nav>
+        <CustomLink to="/"><FontAwesomeIcon icon={faHome} /></CustomLink>
+        <CustomLink to="/about"><FontAwesomeIcon icon={faCircleInfo} /></CustomLink>
+        <CustomLink to="/projects"><FontAwesomeIcon icon={faFolderOpen} /></CustomLink>
+        {/* Add a button to toggle colors */}
+        <ThemeChanger />
+      </nav>
+  );
+};
 
 function CustomLink({to, children, ...props}) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true})
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true})
 
-    return (
-        <Link className={isActive ? "active" : ""} to={to} {...props}>
-            {children}
-        </Link>
-    )
+  return (
+      <Link className={isActive ? "active" : ""} to={to} {...props}>
+          {children}
+      </Link>
+  )
 }
 
-export default Sidebar
+export default Sidebar;

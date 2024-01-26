@@ -1,71 +1,39 @@
-.project-container {
-    width: 100%;
+#project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.project-folders {
-    display: flex;
+#project h1 {
+  margin: 10px;
+  font-size: 30px;
 }
 
-.project-row {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 50px;
-    margin-right: 5px;
+.project-layer {
+  display: flex;
 }
 
-.project-row:not(:first-child) {
-    margin-left: 5px;
-    margin-right: 0;
-  }
-
-.project-row .card {
-    margin-bottom: 10px;
+.project-box {
+  width: 305px;
+  height: 205px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #1e2122;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.project-row .card p{
-    color: rgb(153, 153, 153);
-}
-
-.project-row .projectOne {
-    height: 200px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(/src/assets/image/projectOne.png);
+.project-one {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01)), url(/src/assets/images/project-one.png);
     background-size: cover;
 }
 
-.project-row .projectTwo{
-    height: 200px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(/src/assets/image/projectTwo.png);
+.project-two {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01)), url(/src/assets/images/project-two.webp);
     background-size: cover;
-}
-
-.project-row .projectThree{
-    height: 200px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(/src/assets/image/projectThree.webp);
-    background-size: cover;
-}
-
-@media screen and (max-width: 700px) {
-    .project-folders {
-        display: block;
-
-    }
-
-    .project-row {
-        margin-bottom: 0px;
-        margin-right: 0;
-    }
-
-    .project-row:not(:first-child) {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .project-row .card {
-        margin-bottom: 10px;
-    }
-
-    .project-row:last-child .card:last-child {
-        margin-bottom: 50px;
-    }
 }

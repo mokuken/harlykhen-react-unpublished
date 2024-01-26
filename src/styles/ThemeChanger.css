@@ -1,0 +1,19 @@
+.dark-theme {
+    background-color: white;
+    color: black;
+    nav {
+      background-color: lightgray;
+    }
+    img {
+      background-color: lightgray;
+    }
+    .project-box {
+      background-color: lightgray;
+    }
+    .project-one, .project-two {
+      color: white;
+    }
+    nav a {
+      color: black;
+    }
+  }

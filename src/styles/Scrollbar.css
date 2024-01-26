@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* Set your desired dark color */
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* For Firefox */
+/* You may need to use !important to override default Firefox styles */
+/* Or target a specific Firefox version like this: @-moz-document url-prefix() { } */
+/* The example below assumes !important */
+* {
+    scrollbar-color: #333 !important;
+}
+  
+/* For Edge and IE */
+/* You may need to use ::-ms-scrollbar-thumb */
+/* But note that customization in Edge and IE is limited */
+* {
+    scrollbar-face-color: #333 !important;
+    scrollbar-highlight-color: #333 !important;
+    scrollbar-shadow-color: #333 !important;
+    scrollbar-3dlight-color: #333 !important;
+    scrollbar-arrow-color: #333 !important;
+    scrollbar-track-color: #333 !important;
+}
+  
+/* For all browsers (optional) */
+/* This rule is not supported in all browsers */
+/* It may not have any effect in some cases */
+* {
+    scrollbar-darkshadow-color: #333 !important;
+}

@@ -1,26 +1,25 @@
-import './styles/App.css';
-import './styles/Gallery.css';
 import { Route, Routes } from 'react-router-dom'
-import BackgroundVideo from './components/Background'
 import Sidebar from './components/Sidebar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Project from './pages/Project'
-import Gallery from './pages/Gallery'
+import './styles/App.css';
+import './styles/Scrollbar.css';
+import './styles/ThemeChanger.css';
+import './styles/About.css';
+import './styles/Project.css';
 
 function App() {
   return (
-    <div className='App'>
-      <BackgroundVideo />
-      <Sidebar />
-      <div className='container'>
+    <div class="App">
+      <Sidebar/>
+      <main>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/About' element={<About />} />
-          <Route path='/Project' element={<Project />} />
-          <Route path='/Gallery' element={<Gallery />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/About' element={<About />} />
+            <Route path='/Projects' element={<Project />} />
         </Routes>
-      </div>
+      </main>
     </div>
   );
 }

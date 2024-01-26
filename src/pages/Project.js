@@ -1,42 +1,33 @@
-import React from "react";
-import '../styles/Project.css';
+import React from 'react';
 
 const Project = () => {
-    return (
-        <div className="project-container">
-            <h3>some of my recent work</h3>
-            <h1>PROJECTS</h1>
-            <br />
-            <div className="content-padding">
-                <div className="project-folders">
-                    <div className="project-row">
-                        <div className="card projectOne">
-                            <h2>My Dynamic Window Manager</h2>
-                            <p>My patched version of suckless dynamic window manage.</p>
-                        </div>
-                        <div className="card projectThree">
-                            <h2>Lost Dream Game</h2>
-                            <p>A game that i made based on the things i remember to my dreams.</p>
-                        </div>
-                        <div className="card">
-                            <p>empty</p>
-                        </div>
-                    </div>
-                    <div className="project-row">
-                        <div className="card">
-                            <p>empty</p>
-                        </div>
-                        <div className="card projectTwo">
-                            <h2>Library Login System</h2>
-                            <p>A login system where it record the daily login of students in the library everyday with cool features.</p>
-                        </div>
-                        <div className="card">
-                            <p>empty</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  return (
+    <section id="project">
+      <h1>Some Projects I've Made</h1>
+      <div className="project-layer">
+        <div className="project-box project-one">
+          <h3>Library Login System</h3>
         </div>
-    )
-}
-export default Project
+        <div className="project-box project-two">
+          <h3>Lost Dream Game</h3>
+        </div>
+        <div className="project-box">
+          <h3>Code Basics</h3>
+        </div>
+      </div>
+      <div className="project-layer">
+        <div className="project-box">
+          <h3>Empty</h3>
+        </div>
+        <div className="project-box">
+          <h3>Empty</h3>
+        </div>
+        <div className="project-box">
+          <h3>Empty</h3>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Project;
