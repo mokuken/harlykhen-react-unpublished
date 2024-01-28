@@ -1,6 +1,12 @@
 .dark-theme {
     background-color: white;
     color: black;
+    
+    section {
+      background-color: white;
+      transition: background-color 0.5s ease-in-out;
+    }
+
     nav {
       background-color: lightgray;
     }
@@ -9,6 +15,7 @@
     }
     .project-box {
       background-color: lightgray;
+      transition: background-color 0.5s ease-in-out;
     }
     .project-one, .project-two {
       color: white;
@@ -16,4 +23,29 @@
     nav a {
       color: black;
     }
-  }
+
+    nav button {
+      color: black;
+      background-color: lightgray;
+    }
+
+    nav a.active {
+      background-color: white;
+    }
+
+    nav, nav a, nav button, nav a.active, .hero img {
+      transition: background-color 0.5s ease-in-out;
+    }
+}
+
+.project-box {
+  transition: background-color 0.5s ease-in-out;
+}
+
+section {
+  transition: background-color 0.5s ease-in-out;
+}
+
+nav, nav a, nav button ,nav a.active, .hero img {
+  transition: background-color 0.5s ease-in-out;
+}

@@ -11,11 +11,11 @@ const ThemeChanger = () => {
 
     document.body.classList.toggle('dark-theme', newTheme);
   };
-
+  
   return (
-    <a href='#/' onClick={toggleTheme}>
+    <button onClick={toggleTheme}>
       <FontAwesomeIcon icon={faSun} />
-    </a>
+    </button>
   );
 };
 

@@ -1,11 +1,16 @@
+@font-face {
+  font-family: 'Afacad';
+  src: url('../assets/fonts/Afacad-VariableFont_wght.ttf');
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  color: #fff;
+  font-family: 'Afacad';
+  color: #FFF8F1;
   overflow: hidden;
   background-color: #141616;
 }
@@ -38,6 +43,25 @@ nav a {
   color: white;
 }
 
+nav button {
+  width: inherit;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #1e2122;
+  cursor: pointer;
+}
+
+nav a.active {
+  background-color: #141616;
+}
+
 main {
   width: 100%;
   overflow-y: hidden;
@@ -45,6 +69,7 @@ main {
 
 section {
   height: 100%;
+  background-color: #141616;
 }
 
 #home {
