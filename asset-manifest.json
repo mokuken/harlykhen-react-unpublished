@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/harlykhen/static/css/main.7c583f63.css",
-    "main.js": "/harlykhen/static/js/main.70c55e17.js",
+    "main.css": "/harlykhen/static/css/main.3401730c.css",
+    "main.js": "/harlykhen/static/js/main.69aae256.js",
     "static/js/787.522d9804.chunk.js": "/harlykhen/static/js/787.522d9804.chunk.js",
     "static/media/coffee.jpg": "/harlykhen/static/media/coffee.de4f60a992939a2a7b9c.jpg",
-    "static/media/project-two.webp": "/harlykhen/static/media/project-two.13a0cee21a533f08f030.webp",
+    "static/media/project-two.png": "/harlykhen/static/media/project-two.0e82f0a4f3d45a33d790.png",
     "static/media/project-one.png": "/harlykhen/static/media/project-one.b7bfcc7c27d004c917cb.png",
     "static/media/Afacad-VariableFont_wght.ttf": "/harlykhen/static/media/Afacad-VariableFont_wght.0e7141d6af3f14a97ab4.ttf",
     "static/media/profile.webp": "/harlykhen/static/media/profile.6cdd668b8017e88f1fde.webp",
     "index.html": "/harlykhen/index.html",
-    "main.7c583f63.css.map": "/harlykhen/static/css/main.7c583f63.css.map",
-    "main.70c55e17.js.map": "/harlykhen/static/js/main.70c55e17.js.map",
+    "main.3401730c.css.map": "/harlykhen/static/css/main.3401730c.css.map",
+    "main.69aae256.js.map": "/harlykhen/static/js/main.69aae256.js.map",
     "787.522d9804.chunk.js.map": "/harlykhen/static/js/787.522d9804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c583f63.css",
-    "static/js/main.70c55e17.js"
+    "static/css/main.3401730c.css",
+    "static/js/main.69aae256.js"
   ]
 }
