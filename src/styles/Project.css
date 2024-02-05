@@ -18,22 +18,41 @@
   width: 305px;
   height: 205px;
   margin: 10px;
-  padding: 10px;
   background-color: #1e2122;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 5px;
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-box img {
+  position: absolute;
+  z-index: 1;
+  width: 305px;
+  height: 205px;
+  object-fit: cover;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.project-box .project-name {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
 }
 
-.project-one {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01)), url(/src/assets/images/project-one.png);
-    background-size: cover;
+.fill {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01));
 }
 
-.project-two {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01)), url(/src/assets/images/project-two.webp);
-    background-size: cover;
+.project-box h3 {
+  padding: 10px;
 }

@@ -1,24 +1,24 @@
 .dark-theme {
-    background-color: white;
+    background-color: #FFF8F1;
     color: black;
     
     section {
-      background-color: white;
+      background-color: #FFF8F1;
       transition: background-color 0.5s ease-in-out;
     }
 
     nav {
       background-color: lightgray;
     }
-    img {
+    .home-image, .about-image {
       background-color: lightgray;
     }
     .project-box {
       background-color: lightgray;
       transition: background-color 0.5s ease-in-out;
     }
-    .project-one, .project-two {
-      color: white;
+    .fill {
+      color: #FFF8F1;
     }
     nav a {
       color: black;
@@ -30,7 +30,13 @@
     }
 
     nav a.active {
-      background-color: white;
+      background-color: #FFF8F1;
+    }
+
+    .loader {
+      border-top: 3px solid #000;
+      border-left: 3px solid #000;
+      border-right: 3px solid transparent;
     }
 
     nav, nav a, nav button, nav a.active, .hero img {
@@ -46,6 +52,6 @@ section {
   transition: background-color 0.5s ease-in-out;
 }
 
-nav, nav a, nav button ,nav a.active, .hero img {
+nav, nav a, nav button ,nav a.active, .home-image, .about-image {
   transition: background-color 0.5s ease-in-out;
 }

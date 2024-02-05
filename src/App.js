@@ -11,7 +11,7 @@ import './styles/Project.css';
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <Sidebar/>
       <main>
         <Routes>

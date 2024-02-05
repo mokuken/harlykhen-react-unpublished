@@ -1,11 +1,14 @@
 import React from 'react';
 import profile from '../assets/images/profile.webp';
+import ImageLoader from '../components/ImageLoader';
 
 const Home = () => {
   return (
     <section id="home">
       <div className="hero">
-        <img src={profile} alt="Profile" />
+        <div className='home-image'>
+          <ImageLoader src={profile} alt="Alt text"/>
+        </div>
         <div className="hero-name">
           <h3>hello there i am</h3>
           <h1>HARLY KHEN QUIMELAT</h1>

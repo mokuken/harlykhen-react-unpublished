@@ -1,3 +1,8 @@
+:root {
+  --first-color: #141616;
+  --second-color: #1e2122;
+}
+
 @font-face {
   font-family: 'Afacad';
   src: url('../assets/fonts/Afacad-VariableFont_wght.ttf');
@@ -9,10 +14,10 @@
 }
 
 body {
-  font-family: 'Afacad';
+  font-family: 'Afacad', monospace;
   color: #FFF8F1;
   overflow: hidden;
-  background-color: #141616;
+  background-color: var(--first-color);
 }
 
 .App {
@@ -26,8 +31,8 @@ nav {
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  border-right: 2px solid black;
-  background-color: #1e2122;
+  border-right: 3px solid black;
+  background-color: var(--second-color);
 }
 
 nav a {
@@ -40,26 +45,30 @@ nav a {
   border: 3px solid black;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
+  color: #FFF8F1;
+  font-size: 15px;
 }
 
-nav button {
+nav .themeChanger {
   width: inherit;
   height: 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 5px 10px;
   border: 3px solid black;
   border-radius: 5px;
-  text-decoration: none;
-  color: white;
-  background-color: #1e2122;
+}
+
+nav .themeChanger button {
+  width: 100%;
+  height: inherit;
+  border: none;
+  color: #FFF8F1;
+  background-color: var(--second-color);
   cursor: pointer;
+  font-size: 15px;
 }
 
 nav a.active {
-  background-color: #141616;
+  background-color: var(--first-color);
 }
 
 main {
@@ -69,7 +78,7 @@ main {
 
 section {
   height: 100%;
-  background-color: #141616;
+  background-color: var(--first-color);
 }
 
 #home {
@@ -84,11 +93,23 @@ section {
   margin: auto;
 }
 
+.home-image {
+  border: 3px solid black;
+  background-color: var(--second-color);
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 200px;
+  height: 208px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero img {
   border: 3px solid black;
-  background-color: #1e2122;
-  margin-right: 20px;
   border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-name h1 {
@@ -119,3 +140,24 @@ article {
     transform: translateY(0);
   }
 }
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

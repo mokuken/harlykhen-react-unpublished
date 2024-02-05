@@ -7,11 +7,19 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 const Sidebar = () => {
   return (
       <nav>
-        <CustomLink to="/"><FontAwesomeIcon icon={faHome} /></CustomLink>
-        <CustomLink to="/about"><FontAwesomeIcon icon={faCircleInfo} /></CustomLink>
-        <CustomLink to="/projects"><FontAwesomeIcon icon={faFolderOpen} /></CustomLink>
+        <abbr title='Home'>
+          <CustomLink to="/"><FontAwesomeIcon icon={faHome} /></CustomLink>
+        </abbr>
+        <abbr title='About'>
+          <CustomLink to="/about"><FontAwesomeIcon icon={faCircleInfo} /></CustomLink>
+        </abbr>
+        <abbr title='Projects'>
+          <CustomLink to="/projects"><FontAwesomeIcon icon={faFolderOpen} /></CustomLink>
+        </abbr>
         {/* Add a button to toggle colors */}
-        <ThemeChanger />
+        <abbr title='Set Theme' className='themeChanger'>
+          <ThemeChanger />
+        </abbr>
       </nav>
   );
 };

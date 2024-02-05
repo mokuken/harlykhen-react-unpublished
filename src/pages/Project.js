@@ -1,29 +1,46 @@
 import React from 'react';
+import projectOne from '../assets/images/project-one.png';
+import projectTwo from '../assets/images/project-two.png';
+import ImageLoader from '../components/ImageLoader';
 
 const Project = () => {
   return (
     <section id="project">
       <h1>Some Projects I've Made</h1>
       <div className="project-layer">
-        <div className="project-box project-one">
-          <h3>Library Login System</h3>
-        </div>
-        <div className="project-box project-two">
-          <h3>Lost Dream Game</h3>
+        <div className="project-box">
+          <ImageLoader src={projectOne} alt="Alt text" />
+          <div className='project-name fill'>
+            <h3>Library Login System</h3>
+          </div>
         </div>
         <div className="project-box">
-          <h3>Code Basics</h3>
+          <ImageLoader src={projectTwo} alt="Alt text" />
+          <div className='project-name fill'>
+            <h3>Lost Dream Game</h3>
+          </div>
+        </div>
+        <div className="project-box">
+          <div className='project-name'>
+            <h3>Code Basics</h3>
+          </div>
         </div>
       </div>
       <div className="project-layer">
         <div className="project-box">
-          <h3>Empty</h3>
+          <div className='project-name'>
+            <h3>Empty</h3>
+          </div>
         </div>
         <div className="project-box">
-          <h3>Empty</h3>
+          <div className='project-name'>
+            <h3>Empty</h3>
+          </div>
         </div>
         <div className="project-box">
-          <h3>Empty</h3>
+          <div className='project-name'>
+            <h3>Empty</h3>
+          </div>
         </div>
       </div>
     </section>
