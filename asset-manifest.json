@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/harlykhen/static/css/main.75b73e98.css",
+    "main.css": "/harlykhen/static/css/main.e3ef7bcc.css",
     "main.js": "/harlykhen/static/js/main.69aae256.js",
     "static/js/787.522d9804.chunk.js": "/harlykhen/static/js/787.522d9804.chunk.js",
     "static/media/coffee.jpg": "/harlykhen/static/media/coffee.de4f60a992939a2a7b9c.jpg",
@@ -9,12 +9,12 @@
     "static/media/Afacad-VariableFont_wght.ttf": "/harlykhen/static/media/Afacad-VariableFont_wght.0e7141d6af3f14a97ab4.ttf",
     "static/media/profile.webp": "/harlykhen/static/media/profile.6cdd668b8017e88f1fde.webp",
     "index.html": "/harlykhen/index.html",
-    "main.75b73e98.css.map": "/harlykhen/static/css/main.75b73e98.css.map",
+    "main.e3ef7bcc.css.map": "/harlykhen/static/css/main.e3ef7bcc.css.map",
     "main.69aae256.js.map": "/harlykhen/static/js/main.69aae256.js.map",
     "787.522d9804.chunk.js.map": "/harlykhen/static/js/787.522d9804.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75b73e98.css",
+    "static/css/main.e3ef7bcc.css",
     "static/js/main.69aae256.js"
   ]
 }
