@@ -6,6 +6,7 @@ import Project from './pages/Project'
 import './styles/App.css';
 import './styles/Scrollbar.css';
 import './styles/ThemeChanger.css';
+import './styles/Home.css';
 import './styles/About.css';
 import './styles/Project.css';
 

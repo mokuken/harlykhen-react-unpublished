@@ -26,6 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .project-box img {
@@ -55,4 +56,30 @@
 
 .project-box h3 {
   padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-layer {
+    flex-direction: column;
+    overflow-y: hidden;
+    padding-left: 5px;
+    margin-left: 5px;
+  }
+
+  #project {
+    height: auto;
+    overflow-y: auto;
+    padding: 25px 0;
+    padding-left: 5px;
+  }
+
+  .project-box {
+    width: 340px;
+    height: 250px;
+  }
+  
+  .project-box img {
+    width: 340px;
+    height: 250px;
+  }
 }

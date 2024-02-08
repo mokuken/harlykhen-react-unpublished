@@ -1,0 +1,57 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .home-image {
+    border: 3px solid black;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 200px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero img {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero-name h1 {
+    font-size: 60px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    #home {
+      overflow-y: auto;
+      height: 90vh;
+    }
+
+    .hero {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .home-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+      justify-content: center;
+      
+    }
+  
+    .hero-name {
+      text-align: center;
+    }
+  }
