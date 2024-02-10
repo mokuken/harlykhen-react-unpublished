@@ -7,7 +7,7 @@ const Home = () => {
     <section id="home">
       <div className="hero">
         <div className='home-image'>
-          <ImageLoader src={profile} alt="Alt text"/>
+          <ImageLoader src={profile} alt="profile"/>
         </div>
         <div className="hero-name">
           <h3>hello there i am</h3>

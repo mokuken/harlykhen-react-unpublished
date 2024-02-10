@@ -7,7 +7,7 @@ const Home = () => {
     <section id="about">
       <div className="about-layer">
         <div className='about-image'>
-          <ImageLoader src={coffee} alt="Alt text"/>
+          <ImageLoader src={coffee} alt="coffe"/>
         </div>
         <article>
           <h1>About Myself</h1>

@@ -23,6 +23,7 @@ body {
 .App {
   display: flex;
   height: 100vh;
+  background-color: var(--first-color);
 }
 
 nav {
@@ -130,6 +131,8 @@ article {
 @media screen and (max-width: 1100px) {
   main {
     overflow-y: auto;
+    padding-top: 90px;
+    padding-left: 5px;
   }
 
   .App {
@@ -142,6 +145,11 @@ article {
     flex-direction: row;
     border-right: none;
     border-bottom: 3px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
   }
 
   nav .themeChanger button {

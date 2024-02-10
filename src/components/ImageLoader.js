@@ -10,7 +10,7 @@ const ImageLoader = ({ src, alt, className }) => {
 
   return (
     <>
-      {!imageLoaded && <span class="loader"></span>}
+      {!imageLoaded && <span className="loader"></span>}
       <img
         src={src}
         alt={alt}

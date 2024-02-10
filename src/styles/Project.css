@@ -63,14 +63,12 @@
     flex-direction: column;
     overflow-y: hidden;
     padding-left: 5px;
-    margin-left: 5px;
   }
 
   #project {
     height: auto;
     overflow-y: auto;
     padding: 25px 0;
-    padding-left: 5px;
   }
 
   .project-box {
@@ -81,5 +79,9 @@
   .project-box img {
     width: 290px;
     height: 200px;
+  }
+
+  #project h1 {
+    padding-left: 10px;
   }
 }
